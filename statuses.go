@@ -4,12 +4,12 @@ type Status string
 
 const (
 	Clean     Status = "clean"
-	CatchAll         = "catch-all"
-	Invalid          = "invalid"
-	Bounced          = "bounced"
-	Special          = "special"
-	BadMX            = "bad-mx"
-	SpamTrap         = "spam-trap"
-	Temporary        = "temporary"
-	Unknown          = "unknown"
+	CatchAll  Status = "catch-all"
+	Invalid   Status = "invalid"
+	Bounced   Status = "bounced"
+	Special   Status = "special"
+	BadMX     Status = "bad-mx"
+	SpamTrap  Status = "spam-trap"
+	Temporary Status = "temporary"
+	Unknown   Status = "unknown"
 )
